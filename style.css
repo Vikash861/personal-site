@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    height: 650px;
+    background-color: #EAF6F6;
+    position: relative;
+}
+#cloud-1{
+    opacity: 20%;
+    position: absolute;
+    top: 55%;
+    left: 11%;
+}
+#cloud-2{
+    opacity: 20%;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+.heading_wrapper {
+    text-align: center;
+    height: 50%;
+    position: relative;
+}
+
+.heading_wrapper div {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading_wrapper div h1{
+    padding: 40px;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+.heading_wrapper div h2{
+    color: #66BFBF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:2rem;
+
+}
+.img_wrapper{
+    width: 600px;
+    margin:0 auto;
+    margin-top: 45px;
+}
+.mouImg{
+    width:575px;
+}
+
+.bio{
+    /* height:700px ; */
+}
+
+.profile_wrapper{
+    text-align: center;
+}
+.profile_wrapper img{
+    margin-top: 70px;
+}
+
+.bio h2{
+    color: #66BFBF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: xxx-large;
+    font-weight: normal;
+    transition: 1s ease-in-out;
+}
+.about_wapper{
+    width: 300px;
+    margin:auto;
+    margin-top: 30px;
+}
+.about_wapper p{
+    text-align: center;
+    font-family: sans-serif;
+}
